@@ -2,16 +2,18 @@
 using System;
 void zadacha29()
 {
-    Console.WriteLine("программа задаёт массив и 8 случайных чисел\n\rи выводит отсортированный по модулю массив.");
+    Console.WriteLine("Программа задаёт массив и 8 случайных чисел\n\rи выводит отсортированный по модулю массив.");
     Random rand = new Random();
     int size = 8;
     int temp;
     int[] numbers = new int[size];
 
+
     for (int i = 0; i < size; i++)
     {
         numbers[i] = rand.Next(-50, 51);
     }
+
 
     Console.WriteLine("\n\rИсходнный массив: ");
     for (int i = 0; i < size; i++)
@@ -32,6 +34,7 @@ void zadacha29()
             }
         }
     }
+
 
     Console.WriteLine("\n\rОтсортированный по модулю: ");
     for (int i = 0; i < size; i++)
