@@ -18,7 +18,7 @@ void zadacha25()
                                                                             // double result = Math.Pow(A, B);
 
                                                                             // Console.WriteLine($"А в степени B равно: {result}");
-    for (int i = 0; i < numbersB -1; i++)
+    for (int i = 1; i < numbersB; i++)
     {
         result *= numbersA;
     }
